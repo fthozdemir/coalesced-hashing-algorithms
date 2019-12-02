@@ -1,0 +1,8 @@
+C:\Users\fatih\source\repos\file_organization_fth_oz\bin\Debug\file_organization_fth_oz.exe
+C:\Users\fatih\source\repos\file_organization_fth_oz\bin\Debug\file_organization_fth_oz.pdb
+C:\Users\fatih\source\repos\file_organization_fth_oz\obj\Debug\file_organization_fth_oz.csprojAssemblyReference.cache
+C:\Users\fatih\source\repos\file_organization_fth_oz\obj\Debug\file_organization_fth_oz.Form1.resources
+C:\Users\fatih\source\repos\file_organization_fth_oz\obj\Debug\file_organization_fth_oz.Properties.Resources.resources
+C:\Users\fatih\source\repos\file_organization_fth_oz\obj\Debug\file_organization_fth_oz.csproj.GenerateResource.cache
+C:\Users\fatih\source\repos\file_organization_fth_oz\obj\Debug\file_organization_fth_oz.exe
+C:\Users\fatih\source\repos\file_organization_fth_oz\obj\Debug\file_organization_fth_oz.pdb
