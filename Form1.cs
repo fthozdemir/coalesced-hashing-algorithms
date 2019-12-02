@@ -1,5 +1,6 @@
 ﻿/* THIS PROGRAM DEVELOPED BY FATIH OZDEMIR
  * FOR FILE ORGANIZATON LECTURE
+ * COLASCATED HASHING ALGORITHMS COMPARISON
  * GAZI UNIVERSITY 02-12-19
  */
 
@@ -502,16 +503,16 @@ namespace file_organization_fth_oz
         {
             int deger = Convert.ToInt32(searchValue_textBox.Text);
             if (probCounts_Standart(LISCH_dataGrid, deger) == -1)
-                searchResults_textBox.Text = "Böyle Bi değer bulunmamaktadır.";
+                searchResults_textBox.Text = "Upss. This value is not a generated one";
             else
             {
-                searchResults_textBox.Text = "BULUNDU" + Environment.NewLine
-                    + "LISCH Tablosundaki index yeri => " + probSearch_Standart(LISCH_dataGrid, deger) + Environment.NewLine
-                    + "LICH Tablosundaki index yeri => " + probSearch_UNStandart(LICH_dataGrid, deger) + Environment.NewLine
-                    + "EISCH Tablosundaki index yeri => " + probSearch_Standart(EISCH_dataGrid, deger) + Environment.NewLine
-                    + "EICH Tablosundaki index yeri => " + probSearch_UNStandart(EICH_dataGrid, deger) + Environment.NewLine
-                    + "BEISCH Tablosundaki index yeri => " + probSearch_Standart(BEISCH_dataGrid, deger) + Environment.NewLine
-                    + "RLISCH Tablosundaki index yeri => " + probSearch_Standart(RLISCH_dataGrid, deger);
+                searchResults_textBox.Text = "FOUNDED" + Environment.NewLine
+                    + "LISCH  Table index  => " + probSearch_Standart(LISCH_dataGrid, deger) + Environment.NewLine
+                    + "LICH    Table index  => " + probSearch_UNStandart(LICH_dataGrid, deger) + Environment.NewLine
+                    + "EISCH  Table index  => " + probSearch_Standart(EISCH_dataGrid, deger) + Environment.NewLine
+                    + "EICH    Table index  => " + probSearch_UNStandart(EICH_dataGrid, deger) + Environment.NewLine
+                    + "BEISCH Table index  => " + probSearch_Standart(BEISCH_dataGrid, deger) + Environment.NewLine
+                    + "RLISCH Table index  => " + probSearch_Standart(RLISCH_dataGrid, deger);
             }
 
         }

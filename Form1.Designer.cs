@@ -81,6 +81,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.LISCH_dataGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LICH_dataGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EISCH_dataGrid)).BeginInit();
@@ -541,24 +542,35 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft YaHei", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Maroon;
-            this.label11.Location = new System.Drawing.Point(506, 49);
+            this.label11.Location = new System.Drawing.Point(691, 57);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(298, 36);
+            this.label11.Size = new System.Drawing.Size(303, 31);
             this.label11.TabIndex = 10;
-            this.label11.Text = "Algorith Comparator";
+            this.label11.Text = "Algorithms Comparator";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Maroon;
-            this.label12.Location = new System.Drawing.Point(681, 85);
+            this.label12.Location = new System.Drawing.Point(876, 88);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(114, 19);
             this.label12.TabIndex = 10;
             this.label12.Text = "by Fatih Özdemir";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft YaHei", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Maroon;
+            this.label13.Location = new System.Drawing.Point(723, 26);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(272, 36);
+            this.label13.TabIndex = 10;
+            this.label13.Text = "Coalesced Hashing";
             // 
             // file_organization_algorithms
             // 
@@ -567,6 +579,7 @@
             this.ClientSize = new System.Drawing.Size(1345, 884);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label12);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label8);
@@ -662,6 +675,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
     }
 }
 
