@@ -475,7 +475,7 @@
             this.ProbsStatistics_textBox.Location = new System.Drawing.Point(28, 659);
             this.ProbsStatistics_textBox.Multiline = true;
             this.ProbsStatistics_textBox.Name = "ProbsStatistics_textBox";
-            this.ProbsStatistics_textBox.Size = new System.Drawing.Size(238, 191);
+            this.ProbsStatistics_textBox.Size = new System.Drawing.Size(280, 191);
             this.ProbsStatistics_textBox.TabIndex = 6;
             // 
             // searchValue_textBox
